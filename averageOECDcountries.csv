@@ -1,0 +1,211 @@
+TIME,SUBJECT,Value
+2001,Defence,1.627565199
+2002,Defence,1.703592377
+2003,Defence,1.694244505
+2004,Defence,1.645152698
+2005,Defence,1.570364983
+2006,Defence,1.576223789
+2007,Defence,1.544274063
+2008,Defence,1.57529913
+2009,Defence,1.624751393
+2010,Defence,1.571487664
+2011,Defence,1.479753475
+2012,Defence,1.400147116
+2013,Defence,1.360370871
+2014,Defence,1.332635364
+2015,Defence,1.330047606
+2016,Defence,1.353344362
+2017,Defence,1.362249647
+2018,Defence,1.380892174
+2019,Defence,1.381836843
+2020,Defence,1.532352962
+2021,Defence,1.492101609
+2001,Economic Affairs,4.722569178
+2002,Economic Affairs,4.810365952
+2003,Economic Affairs,4.956476327
+2004,Economic Affairs,4.71381724
+2005,Economic Affairs,4.635732355
+2006,Economic Affairs,4.576095698
+2007,Economic Affairs,4.433299481
+2008,Economic Affairs,5.25043647
+2009,Economic Affairs,5.258687549
+2010,Economic Affairs,5.709274557
+2011,Economic Affairs,5.10094513
+2012,Economic Affairs,4.834230408
+2013,Economic Affairs,5.168617706
+2014,Economic Affairs,4.769155915
+2015,Economic Affairs,4.767489668
+2016,Economic Affairs,4.309440488
+2017,Economic Affairs,4.361035544
+2018,Economic Affairs,4.356738137
+2019,Economic Affairs,4.451580503
+2020,Economic Affairs,6.465541049
+2021,Economic Affairs,5.897981516
+2001,Education,5.374346348
+2002,Education,5.517888665
+2003,Education,5.595427056
+2004,Education,5.502722905
+2005,Education,5.381145417
+2006,Education,5.254742242
+2007,Education,5.114429935
+2008,Education,5.278979647
+2009,Education,5.6296146
+2010,Education,5.525222611
+2011,Education,5.397132971
+2012,Education,5.380100739
+2013,Education,5.316862986
+2014,Education,5.290740986
+2015,Education,5.239733018
+2016,Education,5.1408258
+2017,Education,5.126974283
+2018,Education,5.165560778
+2019,Education,5.205580676
+2020,Education,5.438340146
+2021,Education,5.146234127
+2001,Environmental Protection,0.644626756
+2002,Environmental Protection,0.662951954
+2003,Environmental Protection,0.674808536
+2004,Environmental Protection,0.681395179
+2005,Environmental Protection,0.755071361
+2006,Environmental Protection,0.740785825
+2007,Environmental Protection,0.729348948
+2008,Environmental Protection,0.74869304
+2009,Environmental Protection,0.772269773
+2010,Environmental Protection,0.736315843
+2011,Environmental Protection,0.741774707
+2012,Environmental Protection,0.760845428
+2013,Environmental Protection,0.739823705
+2014,Environmental Protection,0.740119794
+2015,Environmental Protection,0.739680304
+2016,Environmental Protection,0.662572291
+2017,Environmental Protection,0.670158739
+2018,Environmental Protection,0.678419246
+2019,Environmental Protection,0.693261914
+2020,Environmental Protection,0.754484071
+2021,Environmental Protection,0.725072067
+2001,General Public Services,6.86391738
+2002,General Public Services,6.62609893
+2003,General Public Services,6.349081599
+2004,General Public Services,6.324998847
+2005,General Public Services,6.158225115
+2006,General Public Services,6.066631751
+2007,General Public Services,6.06142664
+2008,General Public Services,6.309313419
+2009,General Public Services,6.594965361
+2010,General Public Services,6.38250592
+2011,General Public Services,6.535861817
+2012,General Public Services,6.525727431
+2013,General Public Services,6.285167708
+2014,General Public Services,6.098734457
+2015,General Public Services,5.856040382
+2016,General Public Services,5.589815826
+2017,General Public Services,5.403972162
+2018,General Public Services,5.34522507
+2019,General Public Services,5.221868105
+2020,General Public Services,5.468922487
+2021,General Public Services,5.245935196
+2001,Health,5.611495684
+2002,Health,5.800616857
+2003,Health,5.906693794
+2004,Health,5.856553127
+2005,Health,5.960927968
+2006,Health,5.962954151
+2007,Health,5.910933609
+2008,Health,6.148483264
+2009,Health,6.62960042
+2010,Health,6.524302767
+2011,Health,6.457834411
+2012,Health,6.443041105
+2013,Health,6.343918983
+2014,Health,6.337383247
+2015,Health,6.336388981
+2016,Health,6.336110483
+2017,Health,6.248451287
+2018,Health,6.315349779
+2019,Health,6.45488066
+2020,Health,7.362959415
+2021,Health,7.42132281
+2001,Housing and Community Amenities,0.707768085
+2002,Housing and Community Amenities,0.719431236
+2003,Housing and Community Amenities,0.71893684
+2004,Housing and Community Amenities,0.688120912
+2005,Housing and Community Amenities,0.682634233
+2006,Housing and Community Amenities,0.670882581
+2007,Housing and Community Amenities,0.680254463
+2008,Housing and Community Amenities,0.697318558
+2009,Housing and Community Amenities,0.774723535
+2010,Housing and Community Amenities,0.672025352
+2011,Housing and Community Amenities,0.625397971
+2012,Housing and Community Amenities,0.619196823
+2013,Housing and Community Amenities,0.579887856
+2014,Housing and Community Amenities,0.584171947
+2015,Housing and Community Amenities,0.552922804
+2016,Housing and Community Amenities,0.522010364
+2017,Housing and Community Amenities,0.519494261
+2018,Housing and Community Amenities,0.552745557
+2019,Housing and Community Amenities,0.557673505
+2020,Housing and Community Amenities,0.600103886
+2021,Housing and Community Amenities,0.551669133
+2001,Public Order and Safety,1.700861662
+2002,Public Order and Safety,1.722979321
+2003,Public Order and Safety,1.718672573
+2004,Public Order and Safety,1.676142984
+2005,Public Order and Safety,1.642868366
+2006,Public Order and Safety,1.648681149
+2007,Public Order and Safety,1.624968745
+2008,Public Order and Safety,1.671678605
+2009,Public Order and Safety,1.769299546
+2010,Public Order and Safety,1.721260208
+2011,Public Order and Safety,1.692548938
+2012,Public Order and Safety,1.689189929
+2013,Public Order and Safety,1.713145547
+2014,Public Order and Safety,1.696934669
+2015,Public Order and Safety,1.686852692
+2016,Public Order and Safety,1.695731985
+2017,Public Order and Safety,1.681003166
+2018,Public Order and Safety,1.685522803
+2019,Public Order and Safety,1.688661677
+2020,Public Order and Safety,1.803759984
+2021,Public Order and Safety,1.677257532
+2001,"Recreation, Culture, and Religion",1.172167213
+2002,"Recreation, Culture, and Religion",1.243743533
+2003,"Recreation, Culture, and Religion",1.2447075
+2004,"Recreation, Culture, and Religion",1.227374523
+2005,"Recreation, Culture, and Religion",1.198531692
+2006,"Recreation, Culture, and Religion",1.213121678
+2007,"Recreation, Culture, and Religion",1.215187184
+2008,"Recreation, Culture, and Religion",1.272709572
+2009,"Recreation, Culture, and Religion",1.320572615
+2010,"Recreation, Culture, and Religion",1.29072257
+2011,"Recreation, Culture, and Religion",1.290795638
+2012,"Recreation, Culture, and Religion",1.180432338
+2013,"Recreation, Culture, and Religion",1.166761362
+2014,"Recreation, Culture, and Religion",1.151151124
+2015,"Recreation, Culture, and Religion",1.150183729
+2016,"Recreation, Culture, and Religion",1.170210461
+2017,"Recreation, Culture, and Religion",1.196550442
+2018,"Recreation, Culture, and Religion",1.210899196
+2019,"Recreation, Culture, and Religion",1.213087769
+2020,"Recreation, Culture, and Religion",1.262168243
+2021,"Recreation, Culture, and Religion",1.22508286
+2001,Social Protection,14.35177686
+2002,Social Protection,14.65995852
+2003,Social Protection,14.89771708
+2004,Social Protection,14.69876062
+2005,Social Protection,14.53915959
+2006,Social Protection,14.26416875
+2007,Social Protection,14.08613893
+2008,Social Protection,14.64127625
+2009,Social Protection,16.28162862
+2010,Social Protection,16.15412843
+2011,Social Protection,15.92306809
+2012,Social Protection,15.79767461
+2013,Social Protection,15.6589943
+2014,Social Protection,15.51772555
+2015,Social Protection,15.33121704
+2016,Social Protection,15.4447003
+2017,Social Protection,15.06865591
+2018,Social Protection,14.94434457
+2019,Social Protection,15.12177324
+2020,Social Protection,17.26317462
+2021,Social Protection,16.53298864

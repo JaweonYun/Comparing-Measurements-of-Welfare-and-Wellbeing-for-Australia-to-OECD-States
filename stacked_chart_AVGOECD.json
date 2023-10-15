@@ -1,0 +1,20 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 400, "height": 300,
+    "data": {"url": "averageOECDcountries.csv"},
+    "mark": "area",
+    "encoding": {
+      "x": {
+        "timeUnit": "yearmonth", "field": "TIME", "title": "Years",
+        "axis": {"format": "%Y"}
+      },
+      "y": {
+        "aggregate": "sum", "field": "Value", "title": "% of GDP"
+      },
+      "color": {
+        "field": "SUBJECT",
+        "scale": {"scheme": "category20b"},
+        "title": "Sectors"
+      }
+    }
+  }

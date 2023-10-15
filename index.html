@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name = "viewport" content= "width=device-width, initial-scale= 1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <script src="vega_lite_vis.js"></script>
+
+    <title> Comparing Measurements of Welfare and Wellbeing for Australia to OECD Countries</title>
+  
+</head>
+
+<body>
+
+  <style>
+    body {
+      background: linear-gradient(to bottom, #041727, #bdbfc2);
+    }
+  </style>
+
+  <style>
+    .container {
+    text-align: center;
+    }
+  </style>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+  </style>
+
+    <div id="regions_div" style="width: 1300px; height: 450px;"></div>
+
+    <div class="container">
+      <h1 style="color: hsl(0, 0%, 100%); font-family: 'Roboto', sans-serif;"> Comparing Measurements of Welfare and Wellbeing for Australia to OECD States</h1>
+      <h3 style="color: hsl(0, 0%, 82%); font-family: 'Roboto', sans-serif;"> A Data Visualisation by Jaewon Yun </h3>
+
+      <div id="regions_div" style="width: 1300px; height: 550px;"></div>
+
+      <h3 style="color: hsl(0, 0%, 96%); font-family: 'Roboto', sans-serif;"> The Organisation for Economic Cooperation and Development (OECD) is an intergovernmental 
+        organisation with <span style="color: rgb(226, 209, 54);">38</span>  member countries that was founded in  <span style="color: rgb(226, 209, 54);">1961</span> to stimualte economic progress and world trade. </h3>
+      
+      <div id="regions_div" style="width: 1300px; height: 250px;"></div>
+      <div id="timeline"></div>
+      <div id="regions_div" style="width: 1300px; height: 250px;"></div>
+
+      <div id="chart"></div>
+      <script src="timeline.vg.json"></script>
+    
+      <h3 style="color: hsl(0, 0%, 96%); font-family: 'Roboto', sans-serif;"> The majority of OECD Members are high-income economies ranked as "very high" in 
+        the Human Development Index, and are regareded as developed countries. </h3>
+      
+      <h3 style="color: hsl(0, 0%, 96%); font-family: 'Roboto', sans-serif;"> Australia is part of the OECD and comparisons will be made on key welfare and welling measurements including: </h3>
+      
+      <h3 style="color: hsl(0, 0%, 96%); font-family: 'Roboto', sans-serif;"> Employment, Housing, Education, Safety, Healthcare, Environment and Life Satisfaction. </h3>
+       
+      <h3 style="color: hsl(0, 0%, 96%); font-family: 'Roboto', sans-serif;"> Comparisons will be made between OECD nations as it is one of the largest and most reliable source of comparable statistical, 
+        economic and social data.</h3>
+
+
+      <div id="regions_div" style="width: 1300px; height: 200px;"></div>  
+      <h1 style="color: hsl(0, 0%, 100%); font-family: 'Roboto', sans-serif;"> OECD Countries</h2>
+
+    </div>    
+
+    <div id="regions_div" style="width: 1300px; height: 600px;"></div>
+
+    <h2 style="color: hsl(0, 0%, 100%); font-family: sans-serif;"> Australian Government Spendings</h2>
+
+    <div id="bar_chart"></div>
+
+    <h2 style="color: hsl(0, 0%, 100%); font-family: sans-serif;"> OECD Average Government Spendings</h2>
+
+    <div id="bar_chart_2"></div>
+
+</body>
+
+</html>

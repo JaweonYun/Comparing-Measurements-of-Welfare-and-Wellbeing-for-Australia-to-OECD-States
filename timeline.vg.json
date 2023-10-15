@@ -1,0 +1,17 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "timelinedata.csv"},
+  "width": 800, "height": 900,
+  "mark": "bar",
+  "config": {
+    "background": "transparent"},
+  "encoding": {
+    "x": {"field": "year", "type": "ordinal", "title": "Year"},
+    "y": {"aggregate": "count", "type": "quantitative", "title": "Number of Countries"},
+    "color": {"field": "country", "type": "nominal"}
+    
+  },
+  
+  "title": "OECD Countries Joining Since 1961"
+}
+

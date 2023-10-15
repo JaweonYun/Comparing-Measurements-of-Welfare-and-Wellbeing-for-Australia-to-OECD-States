@@ -1,0 +1,140 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "values": [
+        {"label": "1983", "amount": -2.136578595},
+        {"label": "1984", "amount": 1.718752311},
+        {"label": "1985", "amount": -0.459265167},
+        {"label": "1986", "amount": -6.527447989
+      },
+        {"label": "1987", "amount":-7.614331356
+      },
+        {"label": "May", "amount":-8.466737355
+      },
+        {"label": "Jun", "amount": -9.415466575
+      },
+        {"label": "Jul", "amount": -9.86774396
+      },
+        {"label": "Aug", "amount": -6.181001823
+      },
+        {"label": "Sep", "amount": -8.87999256
+      },
+        {"label": "Oct", "amount":-13.24757217
+      },
+        {"label": "Nov", "amount": -17.1871392
+      },
+        {"label": "Dec", "amount": -15.10173215
+      },
+        {"label": "End", "amount": -14.607861
+      }
+      ]
+    },
+    "width": 800,
+    "height": 450,
+    "transform": [
+      {"window": [{"op": "sum", "field": "amount", "as": "sum"}]},
+      {"window": [{"op": "lead", "field": "label", "as": "lead"}]},
+      {
+        "calculate": "datum.lead === null ? datum.label : datum.lead",
+        "as": "lead"
+      },
+      {
+        "calculate": "datum.label === 'End' ? 0 : datum.sum - datum.amount",
+        "as": "previous_sum"
+      },
+      {
+        "calculate": "datum.label === 'End' ? datum.sum : datum.amount",
+        "as": "amount"
+      },
+      {
+        "calculate": "(datum.label !== 'Begin' && datum.label !== 'End' && datum.amount > 0 ? '+' : '') + datum.amount",
+        "as": "text_amount"
+      },
+      {"calculate": "(datum.sum + datum.previous_sum) / 2", "as": "center"},
+      {
+        "calculate": "datum.sum < datum.previous_sum ? datum.sum : ''",
+        "as": "sum_dec"
+      },
+      {
+        "calculate": "datum.sum > datum.previous_sum ? datum.sum : ''",
+        "as": "sum_inc"
+      }
+    ],
+    "encoding": {
+      "x": {
+        "field": "label",
+        "type": "ordinal",
+        "sort": null,
+        "axis": {"labelAngle": 0, "title": "Years"}
+      }
+    },
+    "layer": [
+      {
+        "mark": {"type": "bar", "size": 45},
+        "encoding": {
+          "y": {
+            "field": "previous_sum",
+            "type": "quantitative",
+            "title": "Unenmployment Rate"
+          },
+          "y2": {"field": "sum"},
+          "color": {
+            "condition": [
+              {
+                "test": "datum.label === 'Begin' || datum.label === 'End'",
+                "value": "#f7e0b6"
+              },
+              {"test": "datum.sum < datum.previous_sum", "value": "#f78a64"}
+            ],
+            "value": "#93c4aa"
+          }
+        }
+      },
+      {
+        "mark": {
+          "type": "rule",
+          "color": "#323285",
+          "opacity": 1,
+          "strokeWidth": 2,
+          "xOffset": -22.5,
+          "x2Offset": 22.5
+        },
+        "encoding": {
+          "x2": {"field": "lead"},
+          "y": {"field": "sum", "type": "quantitative"}
+        }
+      },
+      {
+        "mark": {"type": "text", "dy": -4, "baseline": "bottom"},
+        "encoding": {
+          "y": {"field": "sum_inc", "type": "quantitative"},
+          "text": {"field": "sum_inc", "type": "nominal"}
+        }
+      },
+      {
+        "mark": {"type": "text", "dy": 4, "baseline": "top"},
+        "encoding": {
+          "y": {"field": "sum_dec", "type": "quantitative"},
+          "text": {"field": "sum_dec", "type": "nominal"}
+        }
+      },
+      {
+        "mark": {"type": "text", "fontWeight": "bold", "baseline": "middle"},
+        "encoding": {
+          "y": {"field": "center", "type": "quantitative"},
+          "text": {"field": "text_amount", "type": "nominal"},
+          "color": {
+            "condition": [
+              {
+                "test": "datum.label === 'Begin' || datum.label === 'End'",
+                "value": "#725a30"
+              }
+            ],
+            "value": "white"
+          }
+        }
+      }
+    ],
+    "config": {"text": {"fontWeight": "bold", "color": "#404040"}}
+  }
+  

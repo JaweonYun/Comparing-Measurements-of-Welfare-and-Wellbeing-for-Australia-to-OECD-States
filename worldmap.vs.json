@@ -1,0 +1,38 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "OECD Countries",
+    "width": 800,
+    "height": 400,
+    "projection": {"type": "equalEarth"},
+    "data": {
+        "url": "DP_LIVE_11102023200127872.csv",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+    },
+    "transform": [
+    {
+        "lookup": "properties.NAME",
+        "from": {
+            "data": {
+            "url": "DP_LIVE_11102023200127872.csv"
+    },
+    "key": "LOCATION",
+    "fields": ["Value"]
+    }},
+    {"calculate": "datum.Active + 0.1", "as": "Active Cases"}
+    ],
+    "mark": {"type": "geoshape"},
+    "encoding": {
+    "color": {
+    "field": "Value",
+    "type": "quantitative",
+    "scale": {"type": "log"}
+    },
+    "tooltip": [
+    {"field": "properties.NAME", "type": "nominal", "title":
+    "Country"},
+    {"field": "Value", "type": "quantitative"}
+    ]
+    }
+}
+    
+    
